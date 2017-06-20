@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="ellamo">
+      <firstName>Efraim</firstName>
+      <lastName>Llamozas</lastName>
+      <title>Sr.</title>
+      <jobTitle>Coordinador Pase a Producción</jobTitle>
+      <manager></manager>
+      <personalData>
+        <email>ellamo@cantv.com.ve</email>
+        <mobileNumber>04166830677</mobileNumber>
+        <building>Equipos II</building>
+        <room>8</room>
+        <address>NEA</address>
+      </personalData>
+      <professionalData/>
+      <password encrypted="false">123456</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="pbonillo">
+      <firstName>Pedro</firstName>
+      <lastName>Bonillo</lastName>
+      <title>Dr.</title>
+      <jobTitle>Presidente PhD 2014 Consultores C.A.</jobTitle>
+      <manager></manager>
+      <personalData>
+        <email>pedro.bonillo.phdconsultores@gmail.com</email>
+        <phoneNumber>582126936996</phoneNumber>
+        <mobileNumber>584166830677</mobileNumber>
+        <address>Las Acacias</address>
+        <website>http://www.phd2014consultores.com</website>
+      </personalData>
+      <professionalData/>
+      <password encrypted="false">123456</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="jpaez1">
+      <firstName>Jesus</firstName>
+      <lastName>Paez</lastName>
+      <title>Sr.</title>
+      <jobTitle>Especialista de Pase a Producción</jobTitle>
+      <manager>ellamo</manager>
+      <personalData>
+        <email>jpaez1@cantv.com.ve</email>
+      </personalData>
+      <professionalData/>
+      <password encrypted="false">123456</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="dbaraz01">
+      <firstName>Dayana</firstName>
+      <lastName>Barazarte</lastName>
+      <title>Srta</title>
+      <jobTitle>Analista Pase a Producción</jobTitle>
+      <manager>ellamo</manager>
+      <personalData>
+        <email>dbaraz01@cantv.com.ve</email>
+        <phoneNumber>0212-5004887</phoneNumber>
+      </personalData>
+      <professionalData/>
+      <password encrypted="false">123456</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="farauj01">
+      <firstName>Franklin</firstName>
+      <lastName>Araujo</lastName>
+      <title>Sr.</title>
+      <jobTitle>Especialista Pase a Producción</jobTitle>
+      <manager>ellamo</manager>
+      <personalData>
+        <email>jpaez1@cantv.com.ve</email>
+      </personalData>
+      <professionalData/>
+      <password encrypted="false">123456</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="jchaco06">
+      <firstName>Jose Domingo</firstName>
+      <lastName>Chacon</lastName>
+      <title>Sr.</title>
+      <jobTitle>Especialista Pase a Producción</jobTitle>
+      <manager>ellamo</manager>
+      <personalData>
+        <email>jchaco06@cantv.com.ve</email>
+      </personalData>
+      <professionalData/>
+      <password encrypted="false">123456</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="uresponsable">
+      <firstName>Unidad</firstName>
+      <lastName>Reponsable</lastName>
+      <title>Sr</title>
+      <jobTitle>Unidad Responsable</jobTitle>
+      <manager></manager>
+      <personalData>
+        <email>uresponsables@gmail.com</email>
+      </personalData>
+      <professionalData/>
+      <password encrypted="false">123456</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="uinvolucrada">
+      <firstName>Unidad</firstName>
+      <lastName>Involucrada</lastName>
+      <title>Sr.</title>
+      <jobTitle>Unidad Involucrada</jobTitle>
+      <manager></manager>
+      <personalData>
+        <email>uinvolucrada@gmail.com</email>
+      </personalData>
+      <professionalData/>
+      <password encrypted="false">123456</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="ureceptora">
+      <firstName>Unidad</firstName>
+      <lastName>Receptora</lastName>
+      <title>Sr.</title>
+      <jobTitle>Unidad Receptora</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123456</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="SOLICITANTE">
+      <displayName>SOLICITANTE</displayName>
+      <description>Realiza la solicitud de Pase a Producción</description>
+    </role>
+    <role name="ANALISTA">
+      <displayName>ANALISTA</displayName>
+      <description>Analista de la Coordinación de Pase a Producción</description>
+    </role>
+    <role name="ESPECIALISTA">
+      <displayName>ESPECIALISTA</displayName>
+      <description>Especialista Coordinación de Pase a Producción</description>
+    </role>
+    <role name="COORDINADOR">
+      <displayName>COORDINADOR</displayName>
+      <description>Coordinador Pase a Producción</description>
+    </role>
+    <role name="RECEPTOR">
+      <displayName>RECEPTOR</displayName>
+      <description>Se refieren a las personas encargadas de gestionar las actividades (puntos focales) del PAP dentro de sus propias unidades y están divididos en: Responsable del PAP en la GS, GGSI y GGTO</description>
+    </role>
+    <role name="LIDER">
+      <displayName>LIDER</displayName>
+      <description>Lider de Proyecto</description>
+    </role>
+    <role name="GERENTE">
+      <displayName>GERENTE</displayName>
+      <description>Gerente de Area</description>
+    </role>
+    <role name="RESPONSABLE">
+      <displayName>RESPONSABLE</displayName>
+      <description>Unidad Responsable del Pase a Producción</description>
+    </role>
+    <role name="INVOLUCRADO">
+      <displayName>INVOLUCRADO</displayName>
+      <description>Unidad involucrada en el Pase a Producción</description>
+    </role>
+  </roles>
+  <groups>
+    <group name="GGPM">
+      <displayName>GGPM</displayName>
+      <description>Gerencia General de Proyecto Mayores</description>
+    </group>
+    <group name="RRHH">
+      <displayName>RRHH</displayName>
+      <description>Gestión Humana</description>
+    </group>
+    <group name="GGTO">
+      <displayName>GGTO</displayName>
+      <description>Gerencia General de Telecomunicaciones y Operaciones</description>
+    </group>
+    <group name="GIDC IT">
+      <displayName>GIDC IT</displayName>
+      <description>Gerencia de Ingeniería Desarrollo y Construcción de Tecnologías de la Información</description>
+    </group>
+    <group name="GIDC IS">
+      <displayName>GIDC IS</displayName>
+      <description>Gerencia de Ingeniería Desarrollo y Construcción de Sistemas de Información</description>
+    </group>
+    <group name="GPIO">
+      <displayName>GPIO</displayName>
+      <description>Gerencia de Planificación de Ingeniería de Operaciones</description>
+    </group>
+    <group name="PAP">
+      <displayName>PAP</displayName>
+      <description>Coordinación de Pase a Producción</description>
+    </group>
+    <group name="PROVEEDOR">
+      <displayName>PROVEEDOR</displayName>
+      <description>Proveedores</description>
+    </group>
+    <group name="GS">
+      <displayName>GS</displayName>
+      <description>Gerencia de Sistemas</description>
+    </group>
+    <group name="GGSI">
+      <displayName>GGSI</displayName>
+      <description>Gerencia General Seguridad de la Información</description>
+    </group>
+    <group name="MYC">
+      <displayName>MYC</displayName>
+      <description>Monitoreo y Control</description>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>ellamo</userName>
+      <roleName>COORDINADOR</roleName>
+      <groupName>PAP</groupName>
+    </membership>
+    <membership>
+      <userName>pbonillo</userName>
+      <roleName>SOLICITANTE</roleName>
+      <groupName>PROVEEDOR</groupName>
+    </membership>
+    <membership>
+      <userName>jpaez1</userName>
+      <roleName>ESPECIALISTA</roleName>
+      <groupName>PAP</groupName>
+    </membership>
+    <membership>
+      <userName>dbaraz01</userName>
+      <roleName>ANALISTA</roleName>
+      <groupName>PAP</groupName>
+    </membership>
+    <membership>
+      <userName>farauj01</userName>
+      <roleName>ESPECIALISTA</roleName>
+      <groupName>PAP</groupName>
+    </membership>
+    <membership>
+      <userName>jchaco06</userName>
+      <roleName>ESPECIALISTA</roleName>
+      <groupName>PAP</groupName>
+    </membership>
+    <membership>
+      <userName>uresponsable</userName>
+      <roleName>RESPONSABLE</roleName>
+      <groupName>GGSI</groupName>
+    </membership>
+    <membership>
+      <userName>uinvolucrada</userName>
+      <roleName>INVOLUCRADO</roleName>
+      <groupName>GGSI</groupName>
+    </membership>
+    <membership>
+      <userName>ureceptora</userName>
+      <roleName>RECEPTOR</roleName>
+      <groupName>GGSI</groupName>
+    </membership>
+    <membership>
+      <userName>pbonillo</userName>
+      <roleName>RESPONSABLE</roleName>
+      <groupName>PROVEEDOR</groupName>
+    </membership>
+    <membership>
+      <userName>pbonillo</userName>
+      <roleName>RECEPTOR</roleName>
+      <groupName>PROVEEDOR</groupName>
+    </membership>
+    <membership>
+      <userName>pbonillo</userName>
+      <roleName>COORDINADOR</roleName>
+      <groupName>PROVEEDOR</groupName>
+    </membership>
+    <membership>
+      <userName>pbonillo</userName>
+      <roleName>INVOLUCRADO</roleName>
+      <groupName>PROVEEDOR</groupName>
+    </membership>
+    <membership>
+      <userName>pbonillo</userName>
+      <roleName>ANALISTA</roleName>
+      <groupName>PROVEEDOR</groupName>
+    </membership>
+    <membership>
+      <userName>pbonillo</userName>
+      <roleName>ESPECIALISTA</roleName>
+      <groupName>PROVEEDOR</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
